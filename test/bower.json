@@ -1,0 +1,12 @@
+{
+    "name": "autocomplete",
+    "version": "1.0.0",
+    "authors": [
+        "Srigar Sukumar <ssrigar@email.com>"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "angular": "1.5.7",
+        "jquery": "~2.0.3"
+    }
+}
