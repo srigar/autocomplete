@@ -1,3 +1,7 @@
+.auto-complete {
+   position: relative;
+   clear: both;
+}
 .auto-complete,
 .auto-complete input,
 .auto-complete .option-list {
@@ -8,6 +12,9 @@
    overflow-y: auto;
    overflow-x: hidden;
    border: 1px solid #ccc;
+   background: #fff;
+   position: absolute;
+   z-index: 1;
 }
 .auto-complete .option-list .option {
    display: block;
