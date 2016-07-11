@@ -1,0 +1,19 @@
+.auto-complete,
+.auto-complete input,
+.auto-complete .option-list {
+   width: 100%;
+}
+.auto-complete .option-list {
+   max-height: 200px;
+   overflow-y: auto;
+   overflow-x: hidden;
+   border: 1px solid #ccc;
+}
+.auto-complete .option-list .option {
+   display: block;
+}
+.auto-complete .option-list .option:hover {
+   background: #ccc;
+   color: #000;
+   cursor: pointer;
+}
